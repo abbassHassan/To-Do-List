@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.task-input {
+  min-height: 400px;
+  width: 540px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.text-input {
+  padding: 4px;
+  width: 80%;
+}
+
+.add-button {
+  width: 15%;
+  padding: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid black;
+  width: 80%;
+  border-radius: 1px;
+  margin: 10px 4px;
+}
+
+.delete-button {
+  width: 15%;
+  padding: 4px;
+
+}
