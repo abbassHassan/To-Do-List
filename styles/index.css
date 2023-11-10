@@ -9,7 +9,7 @@ body {
   height: 100vh;
 }
 
-.task-input {
+.content {
   min-height: 400px;
   width: 540px;
   border-radius: 20px;
@@ -39,12 +39,32 @@ ul {
 li {
   border: 1px solid black;
   width: 80%;
-  border-radius: 1px;
-  margin: 10px 4px;
+  border-radius: 3px;
+  padding: 4px;
+  height: 30px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .delete-button {
   width: 15%;
-  padding: 4px;
+  padding: 5px;
+}
 
+.edit-button {
+  width: 15%;
+  padding: 5px;
+  margin-right: 4px;
+}
+
+p {
+  margin-left: 2px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.p-checked {
+  text-decoration: line-through;
 }
