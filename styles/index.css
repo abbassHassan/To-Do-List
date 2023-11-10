@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background: linear-gradient(to right, black, white);
 }
 
 .container {
@@ -11,24 +11,28 @@ body {
 
 .content {
   min-height: 400px;
+  max-height: 60vh;
   width: 540px;
   border-radius: 20px;
   background-color: white;
   padding: 10px;
+  overflow: auto;
 }
 
 h1 {
   text-align: center;
 }
 
+h1 img {
+  width: 32px;
+}
+
 .text-input {
   padding: 4px;
   width: 80%;
-}
-
-.add-button {
-  width: 15%;
-  padding: 4px;
+  border-color: black;
+  border-radius: 3px;
+  height: 30px;
 }
 
 ul {
@@ -37,7 +41,7 @@ ul {
 }
 
 li {
-  border: 1px solid black;
+  border: 2px solid black;
   width: 80%;
   border-radius: 3px;
   padding: 4px;
@@ -48,21 +52,31 @@ li {
   align-items: center;
 }
 
-.delete-button {
+button {
   width: 15%;
-  padding: 5px;
+  padding: 8px;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  font-weight: 500;
+
 }
 
 .edit-button {
-  width: 15%;
-  padding: 5px;
   margin-right: 4px;
+}
+
+.add-button {
+  height: 42px;
 }
 
 p {
   margin-left: 2px;
   flex: 1;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .p-checked {
